@@ -1,0 +1,54 @@
+apiVersion: v1
+entries:
+  firstchart:
+  - apiVersion: v2
+    appVersion: 1.16.0
+    created: "2023-02-05T13:59:08.826209659+05:30"
+    dependencies:
+    - name: tomcat
+      repository: https://charts.bitnami.com/bitnami
+      version: ^10.1.5
+    description: A Helm chart for Kubernetes
+    digest: ac4dc5d90115cce47973b5ba6e8d70232d2f4a4dbaeac575b4a22ea1d8ef0185
+    name: firstchart
+    type: application
+    urls:
+    - firstchart-0.1.0.tgz
+    version: 0.1.0
+  tomcat:
+  - annotations:
+      category: ApplicationServer
+      licenses: Apache-2.0
+    apiVersion: v2
+    appVersion: 10.1.5
+    created: "2023-02-05T13:59:08.828000624+05:30"
+    dependencies:
+    - name: common
+      repository: https://charts.bitnami.com/bitnami
+      tags:
+      - bitnami-common
+      version: 2.x.x
+    description: Apache Tomcat is an open-source web server designed to host and run
+      Java-based web applications. It is a lightweight server with a good performance
+      for applications running in production environments.
+    digest: c3f478aaacf07bc70b42c06424c3ae946ab60748dbbe24b14ac5c1e848dd7183
+    home: https://github.com/bitnami/charts/tree/main/bitnami/tomcat
+    icon: https://bitnami.com/assets/stacks/tomcat/img/tomcat-stack-220x234.png
+    keywords:
+    - tomcat
+    - java
+    - http
+    - web
+    - application server
+    - jsp
+    maintainers:
+    - name: Bitnami
+      url: https://github.com/bitnami/charts
+    name: tomcat
+    sources:
+    - https://github.com/bitnami/containers/tree/main/bitnami/tomcat
+    - http://tomcat.apache.org
+    urls:
+    - tomcat-10.5.10.tgz
+    version: 10.5.10
+generated: "2023-02-05T13:59:08.8242279+05:30"
